@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".fragments.AccountFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gradient_blue"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20ssp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:text="Account "/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/myaccountProfile"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textColor="@color/black"
+            android:drawableTint="@color/gradient_blue"
+            android:drawableStart="@drawable/ic_edt"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/_12ssp"
+            android:padding="@dimen/_10ssp"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:text="  Edit Profile"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/savedaddressProfile"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:textColor="@color/black"
+            android:drawableTint="@color/gradient_blue"
+            android:padding="@dimen/_10ssp"
+            android:drawableStart="@drawable/ic_savedaddress"
+            android:gravity="center_vertical"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:text=" Saved Address "/>
+
+         <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/orderHistoryTV"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            android:drawableStart="@drawable/ic_history"
+            android:gravity="center_vertical"
+            android:drawableTint="@color/gradient_blue"
+            android:padding="@dimen/_10ssp"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:text="  Order History "/>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/logOutTV"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10ssp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            android:drawableStart="@drawable/ic_logout"
+            app:drawableTint="@color/gradient_blue"
+            android:gravity="center_vertical"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:text="  Log Out"/>
+    </LinearLayout>
+
+</LinearLayout>

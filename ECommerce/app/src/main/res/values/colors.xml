@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="blue">#0d0b5b</color>
+    <color name="bluee">#058AF4</color>
+    <color name="gradient_blue">#0010F7</color>
+    <color name="gradient_purple">#9306FA</color>
+    <color name="status_bar">#2b39ff</color>
+
+
+</resources>
