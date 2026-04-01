@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var preferenceManager : PreferenceManager
+    // remove unused code causing memory leak in app
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
