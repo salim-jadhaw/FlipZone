@@ -34,11 +34,7 @@ class LoginActivity : AppCompatActivity() {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
 
         preferenceManager = PreferenceManager(this)
-        backPressed()
-
-//        binding.signBTN.setOnClickListener {
-//            validation()
-//        }
+        backPressed() 
 
         binding.signBTN.setOnClickListener{
             validation()
